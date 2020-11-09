@@ -2,7 +2,6 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { LoginService } from '../services/login.service';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { Router } from '@angular/router';
 import { User } from '../interfaces/Ilogin';
 
 @Component({
@@ -17,8 +16,7 @@ export class LoginComponent implements OnInit {
     public dialogRef: MatDialogRef<LoginComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any, 
     private loginService: LoginService, 
-    private fb: FormBuilder,
-    private router: Router) {}
+    private fb: FormBuilder) {}
 
     ngOnInit() {
       this.loginForm = this.fb.group({

@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { timeout, delay } from 'q';
-import { Observable, of } from 'rxjs';
+import { Observable} from 'rxjs';
 import { LoadingService } from './loading.service';
 
 @Injectable({

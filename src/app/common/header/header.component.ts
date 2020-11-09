@@ -5,7 +5,6 @@ import { LoginService } from '../../services/login.service';
 import { User } from '../../interfaces/Ilogin';
 import { EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
-import { BehaviorSubject } from 'rxjs';
 import { LoadingService } from 'src/app/services/loading.service';
 
 @Component({

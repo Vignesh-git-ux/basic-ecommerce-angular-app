@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from 'src/app/interfaces/Ilogin';
-import { LoginService } from 'src/app/services/login.service';
 
 @Component({
   selector: 'app-slider',
